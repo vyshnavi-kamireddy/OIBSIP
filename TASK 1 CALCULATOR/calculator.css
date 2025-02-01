@@ -1,0 +1,94 @@
+.calci{
+    font-family: arial;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-weight: 500;
+    padding: 30px 20px;
+    border-radius: 50px;
+    position: absolute;
+    left: 39%;
+    top: 7%;
+    width: 294px;
+    box-shadow:0px 0px 10px 1px rgb(30, 29, 29);
+}
+#ad{
+    font-weight: bold;
+    font-size: 16px;
+}
+#ad2{
+    font-weight: bold;
+    font-size: 15px;
+}
+#s2{
+    font-size: 20px;
+}
+#s{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#equal{
+    color: white;
+    background-color: #bb5b0c;
+    font-size: 26px;
+    font-weight: 500;
+}
+.button{
+    font-family: arial;
+    color: white;
+    background-color: black;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    box-shadow: 0px 0px 7px 5px rgba(167, 161, 161, 0.416);
+    transition: box-shadow 0.15s;
+}
+.button:hover{
+    box-shadow: 0px 0px 7px 5px rgba(233, 226, 226, 0.632);
+}
+#ss{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: px;
+}
+.sym{
+    color: rgb(98, 226, 98);
+}
+.display{
+    font-size: 25px;
+    height: 70px;
+    padding-top: 40px;
+    padding-left: 15px;
+    text-align: right;
+    padding-right: 15px;
+}
+#body{
+    background-image: linear-gradient(to right,rgb(251, 225, 219),transparent,rgb(231, 253, 231));
+    
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    left: 39%;
+}
+.credits{
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+}
+.credits a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(220, 20, 77);
+    text-shadow: 0px 0px 9px crimson;
+}

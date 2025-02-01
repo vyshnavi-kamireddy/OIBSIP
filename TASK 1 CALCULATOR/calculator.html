@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="calci">
+        <div class="display"></div>
+        <div class="buttons">
+            <div>
+                <button onclick="
+                    calculation='';
+                    localStorage.removeItem('calculation');
+                    document.querySelector('.display').innerText=calculation;
+                    " id="ad" class="button sym ">AC</button>
+                <button onclick="update('%')" id="s2" class="button sym">%</button>
+                <button onclick="update('DEL')" id="ad2" class="button sym">DEL</button>
+                <button onclick="update('/')" id="ss" class="button sym">&#247;</button>
+            </div>
+            <div>
+                <button onclick="update('7')" class="button num">7</button>
+                <button onclick="update('8')" class="button num">8</button>
+                <button onclick="update('9')" class="button num">9</button>
+                <button onclick="update('*')" id="s" class="s button sym">&#215;</button>
+            </div>
+            <div>
+                <button onclick="update('4')" class="button num">4</button>
+                <button onclick="update('5')" class="button num">5</button>
+                <button onclick="update('6')" class="button num">6</button>
+                <button onclick="update('-')" id="s" class="button sym">-</button>
+            </div>
+            <div>
+                <button onclick="update('1')" class="button num">1</button>
+                <button onclick="update('2')" class="button num">2</button>
+                <button onclick="update('3')" class="button num">3</button>
+                <button onclick="update('+')" id="s" class="button sym">+</button>
+            </div>
+            <div>
+                <button onclick="update('00')" class=" num button">00</button>
+                <button onclick="update('0')" class="button num">0</button>
+                <button  onclick="update('.')" id="s" class="button num">.</button>
+                <button onclick="update('=')" id="equal" class="button">=</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="credits">
+            <p>&copy;Copyright | <a href="https://www.linkedin.com/in/vyshnavi-kamireddy" target="_blank">Vyshnavi Kamireddy</a> | 2025</p>
+        </div>
+    </footer>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
