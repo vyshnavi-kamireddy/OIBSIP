@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(12, 36, 62);
+    background-color: #000430;
+}
+.todo{
+    background-color: rgb(12, 36, 62);
+    background-color: #000430;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: roboto,arial;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+ .timedatedisplay{
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 500;
+ }
+ .date{
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .date span{
+    color: rgb(247, 20, 20);
+    font-size: 30px;
+ }
+ .time span{
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .input{
+    font-size: 18px;
+    margin-top: 30px;
+ }
+.input-text{
+    padding: 6px 60px 6px 7px;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-family: arial;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.9);
+}
+.input-text::placeholder{
+    font-size: 14px;
+}
+.input-date{
+    font-family: roboto,arial;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 6px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    color-scheme: dark;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(255,255,255,0.9);
+}
+
+.input-add{
+    font-family: roboto,arial;
+    padding: 8px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(255,0,0,0.9);
+    transition: background-color 0.15s;
+}
+.input-add:hover{
+    background-color: rgba(237, 9, 9, 0.704);
+}
+.input-add:active{
+    box-shadow: 0px 0px 4px rgba(255,0,0,0.9);
+    background-color: red;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+.pending-list{
+    border-right:1px solid rgba(255,255,255,0.2);
+    min-height: 450px;
+    height: auto;
+}
+.pending-list,.completed-list{
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.pending-title,.completed-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-top: -30px;
+}
+.list-p,.list-c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(221, 12, 54) ;
+    border-radius: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.list-c{
+    background-color: rgb(25, 111, 124);
+}
+.list-check,.list-edit,.list-delete{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    width: 35px;
+    border-radius: 40px;
+    align-items: center;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.list-check:hover,.list-edit:hover,.list-delete:hover{
+    background-color: rgba(10, 4, 45, 0.3);
+}
+.list-delete-c:hover{
+    background-color: rgba(22, 19, 19, 0.4);
+}
+.list-left{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-left: 13px;
+}
+.list-right{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 25px;
+}
+.list-right-c{
+    margin-right: 25px;
+    gap: 60px;
+}
+.list-task-p{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    justify-content: center;
+    caret-color: transparent;
+    
+}
+.list-task-p:focus{
+    outline: none;
+}
+.list-task-p::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.list-task-c{
+    margin-left: 10px;
+}
+.edit-js-added{
+    caret-color: auto;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    cursor:auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    padding-left: 560px;
+    color: white;
+}
+.credits{
+    font-size: 17px;
+    font-family: arial;
+}
+.credits a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(221, 12, 54) ;
+    text-shadow: 0px 0px 20px crimson;
+}
